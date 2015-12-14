@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0644BAA7FCFFA6C5B7E387A9E45713A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		1513E1E4433F4B945B8C7FDF46CF4FEC /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1B944C66FDFFEB3638D88A16850CD /* iRate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		159714F1DDE1D51C6E5C228735B52CED /* INSKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4005C065C5A5DA7B257197B5B1B5EA6B /* INSKView.m */; };
+		1AE95C6A6A24B42EE713966A4B6B9A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		1E6C1234D4FA8CA0A84944BBAEFD4FE2 /* Pods-lock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29102E8844E6B166FD9B08780A978D /* Pods-lock-dummy.m */; };
+		240088D5039FACA94FC04E89673DB60E /* INSKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 654FB2C04A07843B887E484DB57F13DA /* INSKMath.h */; };
+		28284B45C4387D2BCB6FEDB99817D7DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		296219666CA5EE36BFC81BFB2D4075E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */; };
+		2F4700E20D6A199E6E3F811A5B8BAB14 /* INSKOSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F624C93F08D37EAE73F3184798F939 /* INSKOSBridge.h */; };
+		3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */; };
+		43355839D41500F016B2595A4DBA9401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF592971B20088FA588D694A8F42E2AA /* UIKit.framework */; };
+		433741F71AB737DD3C0095666F195601 /* INSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB2E458EB69809D47708E2CCA2A38BA /* INSpriteKit.h */; };
+		43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		4D57E230695F6C2669506F336971D252 /* INSKOSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD523DD5A63A8DB8501FFF9D92F9B1 /* INSKOSBridge.m */; };
+		53E67B542C530FA0014D69F6883832E0 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A638A5E8D2DFE695CA10E0B1CD498 /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */; };
+		63A4808D3F4D66F69A1276B6A2798EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		6DFA7849BF075C45B088E21B49A9410E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447ADEF8206894ECF0EBAF59B541F02E /* Security.framework */; };
+		74D6E74A31C83A0F36CDDA5F0E73B5EA /* SKEmitterNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E92C162EAB81C656930F3D101BF1EF7D /* SKEmitterNode+INExtension.h */; };
+		74F256461441540EA696FE86B1B86C09 /* INSKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4336CFF651AC539B48BA2EC2754C8F30 /* INSKButtonNode.m */; };
+		8174555E2FA4F68E5BC704905A515275 /* INSKButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 184A9D60CA14F197C6B57BA83D3A33DB /* INSKButtonNode.h */; };
+		819B4299F6892CF19950F446C5EB2F38 /* SKSpriteNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B970890180B9DF57A9C05A58A40E413 /* SKSpriteNode+INExtension.h */; };
+		81E5F289C679748ABC8D913EAC8D78C0 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E23E2A9FBECF1E320A85D3FCBAAE59 /* Flurry.h */; };
+		933264F8781F81E6669AED92F6AF76D6 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 864990E3BEE939E1503B4BE09CFB3EA3 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94BE3998642489C8DFAE65ED9AE876AC /* SKSpriteNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46617FB6F9A9C92DE76ACED887F5035E /* SKSpriteNode+INExtension.m */; };
+		95D8218CD113E9E54E69C0F9168F3204 /* INSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B0EB1892CF8D30C00F2607800B6BFD /* INSpriteKit-dummy.m */; };
+		9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */; };
+		A53A2315F1F3902CB3DB0881F88D212D /* iRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 123388C79BC7BAF9BECE8F890E2F56CB /* iRate-dummy.m */; };
+		AA367DE781E6D8DB70F54FD0C63C2FC0 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20DEB5CF9769CD581CF42D9131DB438 /* GLKit.framework */; };
+		B3EF476FF5BDC691956784E5CCAD27AA /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = DC72F7F6E753B4DE3AA9E76C079448F6 /* Colours.h */; };
+		B6C8F6B61024C693F0B704E61974DEE3 /* INSKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D715791763FA0D36A92259C743F206A /* INSKTypes.h */; };
+		B798ADFDA91B2526DD0D7A80CB146154 /* INSKTiledImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1041A46236A68A6246D4EB859F43E903 /* INSKTiledImageNode.h */; };
+		C0EAA96F38FABF1C9F585148D6D98FE7 /* INSKScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764ABC3A3084687A6A8A6BF6C79FD46 /* INSKScrollNode.m */; };
+		C5ADD14C352A2D7162E2319E5AF7845A /* iRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED15A7C470EFC74BD2303427FF6FA5D /* iRate.h */; };
+		CE8690D840FE22650E0690CDBA925E7A /* SKEmitterNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C30B6007E03F723D13CD25CEC4F55E1 /* SKEmitterNode+INExtension.m */; };
+		D779089012B9C3AA1899EA655B742EE7 /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AADC894FEDB129044E5C3B864658B2 /* Flurry-iOS-SDK-dummy.m */; };
+		DDB415A30D001EAC1FADDAD40596DBB7 /* SKNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2000D73904427DC253FC64DB52054B /* SKNode+INExtension.m */; };
+		DE20B2F87A4739E6883E6A09E1466784 /* INSKTiledImageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0B711CBA1EA30C065B315E99B3CD5 /* INSKTiledImageNode.m */; };
+		DF28EAB8AAD46D4D473654D474E6357E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */; };
+		E39293D16B42E6824ECD93913A5AA419 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F9211D1D54228B5687DF427AB84648 /* SpriteKit.framework */; };
+		E430B68B942D2551F56733C3D64B4613 /* SKNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9D0C7F2B525C80808FF767C1853EF4 /* SKNode+INExtension.h */; };
+		E6E0954C47F9E625AD9AD6A32977B939 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828EE6B7EEE07027B1F63670CA66E882 /* Colours-dummy.m */; };
+		E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */; };
+		F293EADEE38B06768D64CA6F68986DA9 /* INSKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 600F318885B6236D1C46FEC68467FBD3 /* INSKView.h */; };
+		FF2A3BA785505F83403865FA1E47EB11 /* INSKScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BD72D2D07FCC521E0B3A7F2CDF1C77 /* INSKScrollNode.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A0A2B35FAAB4ABAD78D84F524A3A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1893DE70459B9C5430E1E53597BF9817;
+			remoteInfo = Reachability;
+		};
+		2E922D30044FFBB30C33524D11682A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361B8747ADF199AFBFC9CE4DEF211532;
+			remoteInfo = Colours;
+		};
+		61E612DBC978684984BA3EA91BA13CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B090755233C44E8E118A8DA48015C08;
+			remoteInfo = iRate;
+		};
+		719FD6C0E78E1B19E00291CB7BEA5FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF4B12C4B0BC2B15947FA999F23F55C;
+			remoteInfo = INSpriteKit;
+		};
+		A87E697BD25032A161DD146C8EFF6AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B1FFFC147076F1931310733BF894B3;
+			remoteInfo = "Flurry-iOS-SDK-Flurry-iOS-SDK";
+		};
+		D3269FD7651C20F8606F91BECD152A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A0625BF1E53A26C546EE837FF17236;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F6B93D6A6E58E4B29BED857A07CD78 /* CBMoreAppsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsButton.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsButton.h; sourceTree = "<group>"; };
+		0C30B6007E03F723D13CD25CEC4F55E1 /* SKEmitterNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKEmitterNode+INExtension.m"; path = "INSpriteKit/SKEmitterNode+INExtension.m"; sourceTree = "<group>"; };
+		102B76D447F42440722B4D8E73BAD76B /* INSpriteKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "INSpriteKit-Private.xcconfig"; sourceTree = "<group>"; };
+		1041A46236A68A6246D4EB859F43E903 /* INSKTiledImageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTiledImageNode.h; path = INSpriteKit/INSKTiledImageNode.h; sourceTree = "<group>"; };
+		1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		123388C79BC7BAF9BECE8F890E2F56CB /* iRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iRate-dummy.m"; sourceTree = "<group>"; };
+		184A9D60CA14F197C6B57BA83D3A33DB /* INSKButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKButtonNode.h; path = INSpriteKit/INSKButtonNode.h; sourceTree = "<group>"; };
+		1ABD523DD5A63A8DB8501FFF9D92F9B1 /* INSKOSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKOSBridge.m; path = INSpriteKit/INSKOSBridge.m; sourceTree = "<group>"; };
+		1C028131CD2FE119064C60D56EC4E959 /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_privacy.png; path = VungleSDK.embeddedframework/Resources/vg_privacy.png; sourceTree = "<group>"; };
+		20500C9EC1D7F9ECE805395C926BBFB2 /* iRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iRate.xcconfig; sourceTree = "<group>"; };
+		22F624C93F08D37EAE73F3184798F939 /* INSKOSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKOSBridge.h; path = INSpriteKit/INSKOSBridge.h; sourceTree = "<group>"; };
+		25CFA7544C4F0C6FA1D400729FE679D9 /* libPods-lock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E23E2A9FBECF1E320A85D3FCBAAE59 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		27317B1B9202994DFC6E58F21CFE0644 /* INSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSpriteKit.xcconfig; sourceTree = "<group>"; };
+		2764ABC3A3084687A6A8A6BF6C79FD46 /* INSKScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKScrollNode.m; path = INSpriteKit/INSKScrollNode.m; sourceTree = "<group>"; };
+		28F3C595F99631A6300CB308730E822C /* Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		2E7DE4ED79D9CABA3FCE5675643E8931 /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		2FB2E458EB69809D47708E2CCA2A38BA /* INSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSpriteKit.h; path = INSpriteKit/INSpriteKit.h; sourceTree = "<group>"; };
+		332529C5DD7BBEE0260EA0A2CB03C3D5 /* Pods-lock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lock.release.xcconfig"; sourceTree = "<group>"; };
+		34F4A3D6C45EEBDDFA329ADA2F4822AD /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_close.png; path = VungleSDK.embeddedframework/Resources/vg_close.png; sourceTree = "<group>"; };
+		353A0632EF2EFD9234118E73A6613E4C /* iRate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iRate-Private.xcconfig"; sourceTree = "<group>"; };
+		3B970890180B9DF57A9C05A58A40E413 /* SKSpriteNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+INExtension.h"; path = "INSpriteKit/SKSpriteNode+INExtension.h"; sourceTree = "<group>"; };
+		3FE0B711CBA1EA30C065B315E99B3CD5 /* INSKTiledImageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKTiledImageNode.m; path = INSpriteKit/INSKTiledImageNode.m; sourceTree = "<group>"; };
+		4005C065C5A5DA7B257197B5B1B5EA6B /* INSKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKView.m; path = INSpriteKit/INSKView.m; sourceTree = "<group>"; };
+		4336CFF651AC539B48BA2EC2754C8F30 /* INSKButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKButtonNode.m; path = INSpriteKit/INSKButtonNode.m; sourceTree = "<group>"; };
+		4390ED0EB249ABAD22DF28AB4B941ADE /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447ADEF8206894ECF0EBAF59B541F02E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		450F2FC03B1C45011BABDB94F358CAFD /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
+		46617FB6F9A9C92DE76ACED887F5035E /* SKSpriteNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+INExtension.m"; path = "INSpriteKit/SKSpriteNode+INExtension.m"; sourceTree = "<group>"; };
+		4A9D0C7F2B525C80808FF767C1853EF4 /* SKNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+INExtension.h"; path = "INSpriteKit/SKNode+INExtension.h"; sourceTree = "<group>"; };
+		4F7DA00B16D1847F5AEFFD8481F78F14 /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_cta.png; path = VungleSDK.embeddedframework/Resources/vg_cta.png; sourceTree = "<group>"; };
+		50216244F0D274CB8F3EC81721AB9644 /* Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.xcconfig; sourceTree = "<group>"; };
+		502C32389B98FC38A28701D1625F2D74 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = __vungle.db; path = VungleSDK.embeddedframework/Resources/__vungle.db; sourceTree = "<group>"; };
+		50BD72D2D07FCC521E0B3A7F2CDF1C77 /* INSKScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKScrollNode.h; path = INSpriteKit/INSKScrollNode.h; sourceTree = "<group>"; };
+		511D169EA7831430929535EF90CCC388 /* iRate.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = iRate/iRate.bundle; sourceTree = "<group>"; };
+		51BE8B96B003FAE3611BC8D77B704CF7 /* Flurry-iOS-SDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flurry-iOS-SDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600F318885B6236D1C46FEC68467FBD3 /* INSKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKView.h; path = INSpriteKit/INSKView.h; sourceTree = "<group>"; };
+		60E1B944C66FDFFEB3638D88A16850CD /* iRate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = iRate/iRate.m; sourceTree = "<group>"; };
+		654FB2C04A07843B887E484DB57F13DA /* INSKMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKMath.h; path = INSpriteKit/INSKMath.h; sourceTree = "<group>"; };
+		6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ECD877DCB2A5F2EAC84BC84D5D6D26 /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		7074F7A4D1FEFB26A73972E3FA49A057 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/Resources/vg_mute_on.png; sourceTree = "<group>"; };
+		736DE451D99F44A7D0A04A943B5529E1 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		738BFF96A07836073B3A3014C149B6AB /* libFlurry_7.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.3.0.a; path = Flurry/libFlurry_7.3.0.a; sourceTree = "<group>"; };
+		771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7BE0AE4C5E9B6E59D2A661F5FE3318C1 /* Pods-lock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lock-resources.sh"; sourceTree = "<group>"; };
+		7C64A14D2ABDD034EFF205B49F92E685 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
+		7C76A82E091965D9688D069096B0F1BD /* libINSpriteKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libINSpriteKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		7D715791763FA0D36A92259C743F206A /* INSKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTypes.h; path = INSpriteKit/INSKTypes.h; sourceTree = "<group>"; };
+		828EE6B7EEE07027B1F63670CA66E882 /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
+		83A32A8914E3C684B2275291AC200F94 /* INSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-prefix.pch"; sourceTree = "<group>"; };
+		864990E3BEE939E1503B4BE09CFB3EA3 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		90F5DDEEF48B3FAB17A728905833CF61 /* iRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iRate-prefix.pch"; sourceTree = "<group>"; };
+		911A4C3F0C0ACC69B1BEAFA090E9B625 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.5.2/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		951C40BBDCB58CFE18B5B28E0EA24519 /* Pods-lock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97234945C0B49F6C616EAD6C427C2D95 /* CBMoreAppsBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsBadge.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsBadge.h; sourceTree = "<group>"; };
+		9CF2627AB77D79A3CA7F390394CDD20F /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		9D3C981F6C0C8C64C3C189078A698612 /* CBNewsfeedUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBNewsfeedUI.h; path = Chartboost.framework/Versions/A/Headers/CBNewsfeedUI.h; sourceTree = "<group>"; };
+		9ED15A7C470EFC74BD2303427FF6FA5D /* iRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = iRate/iRate.h; sourceTree = "<group>"; };
+		A11C45182B1FF6E0751C340E912BDD97 /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
+		A1B0EB1892CF8D30C00F2607800B6BFD /* INSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSpriteKit-dummy.m"; sourceTree = "<group>"; };
+		A1F9211D1D54228B5687DF427AB84648 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		AEC545FE4F97CC405C042D7A47FCA9D7 /* libiRate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiRate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF592971B20088FA588D694A8F42E2AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0713338D6728DF8323A0B9A5EDEFA00 /* Pods-lock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lock-acknowledgements.plist"; sourceTree = "<group>"; };
+		B765FE418E3E354D7A1475885502DC56 /* Colours-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Colours-Private.xcconfig"; sourceTree = "<group>"; };
+		B91A638A5E8D2DFE695CA10E0B1CD498 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = Flurry/Empty.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE2000D73904427DC253FC64DB52054B /* SKNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+INExtension.m"; path = "INSpriteKit/SKNode+INExtension.m"; sourceTree = "<group>"; };
+		DB62FF307D9141A865EB8157B3B5A9A1 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		DC72F7F6E753B4DE3AA9E76C079448F6 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		DDC7FBE41B0AA2FFC712EEACFF198E73 /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
+		DDDF56EEE99F6679B656F9EC835D2426 /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_off.png; path = VungleSDK.embeddedframework/Resources/vg_mute_off.png; sourceTree = "<group>"; };
+		E0592BE3DF88E9D8F6300CE8B82E868F /* CBNewsfeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBNewsfeed.h; path = Chartboost.framework/Versions/A/Headers/CBNewsfeed.h; sourceTree = "<group>"; };
+		E20DEB5CF9769CD581CF42D9131DB438 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		E62D10D72BF08C69319AE85F02ACD5D3 /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
+		E8AADC894FEDB129044E5C3B864658B2 /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		E92C162EAB81C656930F3D101BF1EF7D /* SKEmitterNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKEmitterNode+INExtension.h"; path = "INSpriteKit/SKEmitterNode+INExtension.h"; sourceTree = "<group>"; };
+		ED36C45D1DC878AC0BAD6219D81B59A5 /* CBStory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBStory.h; path = Chartboost.framework/Versions/A/Headers/CBStory.h; sourceTree = "<group>"; };
+		F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F8E4CE5DC694CB5680E9885B29049FB4 /* libColours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libColours.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90DFB55BC1E2168479E7B9EDDFE1519 /* Pods-lock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lock.debug.xcconfig"; sourceTree = "<group>"; };
+		FF29102E8844E6B166FD9B08780A978D /* Pods-lock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lock-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E86D7CB7713C9D1DE14C34E07F35A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0644BAA7FCFFA6C5B7E387A9E45713A7 /* Foundation.framework in Frameworks */,
+				6DFA7849BF075C45B088E21B49A9410E /* Security.framework in Frameworks */,
+				296219666CA5EE36BFC81BFB2D4075E2 /* SystemConfiguration.framework in Frameworks */,
+				43355839D41500F016B2595A4DBA9401 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667DCF5B2E5F382F5B490727644BF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28EAB8AAD46D4D473654D474E6357E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */,
+				E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937B5B2DA6300986DEADD611BAE2CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A4808D3F4D66F69A1276B6A2798EB9 /* Foundation.framework in Frameworks */,
+				AA367DE781E6D8DB70F54FD0C63C2FC0 /* GLKit.framework in Frameworks */,
+				E39293D16B42E6824ECD93913A5AA419 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9414FEC2B103BBD0E1B6E5211C897D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28284B45C4387D2BCB6FEDB99817D7DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056929D1351B962734C95CFB7E0CB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4DE357068514685330702108D93A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE95C6A6A24B42EE713966A4B6B9A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0508BAF63735570D6360CD15506687E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB62FF307D9141A865EB8157B3B5A9A1 /* Chartboost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB72F8DC7527544C9E4FCF018F86DD9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FDC7FF31F940E61E1FBDAB2B8633419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911A4C3F0C0ACC69B1BEAFA090E9B625 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16755CF62EEA0907788931C34D3D0994 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				511D169EA7831430929535EF90CCC388 /* iRate.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F53BF57A19D762E9B1B3C0B61D51C35 /* INSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				184A9D60CA14F197C6B57BA83D3A33DB /* INSKButtonNode.h */,
+				4336CFF651AC539B48BA2EC2754C8F30 /* INSKButtonNode.m */,
+				654FB2C04A07843B887E484DB57F13DA /* INSKMath.h */,
+				22F624C93F08D37EAE73F3184798F939 /* INSKOSBridge.h */,
+				1ABD523DD5A63A8DB8501FFF9D92F9B1 /* INSKOSBridge.m */,
+				50BD72D2D07FCC521E0B3A7F2CDF1C77 /* INSKScrollNode.h */,
+				2764ABC3A3084687A6A8A6BF6C79FD46 /* INSKScrollNode.m */,
+				1041A46236A68A6246D4EB859F43E903 /* INSKTiledImageNode.h */,
+				3FE0B711CBA1EA30C065B315E99B3CD5 /* INSKTiledImageNode.m */,
+				7D715791763FA0D36A92259C743F206A /* INSKTypes.h */,
+				600F318885B6236D1C46FEC68467FBD3 /* INSKView.h */,
+				4005C065C5A5DA7B257197B5B1B5EA6B /* INSKView.m */,
+				2FB2E458EB69809D47708E2CCA2A38BA /* INSpriteKit.h */,
+				E92C162EAB81C656930F3D101BF1EF7D /* SKEmitterNode+INExtension.h */,
+				0C30B6007E03F723D13CD25CEC4F55E1 /* SKEmitterNode+INExtension.m */,
+				4A9D0C7F2B525C80808FF767C1853EF4 /* SKNode+INExtension.h */,
+				CE2000D73904427DC253FC64DB52054B /* SKNode+INExtension.m */,
+				3B970890180B9DF57A9C05A58A40E413 /* SKSpriteNode+INExtension.h */,
+				46617FB6F9A9C92DE76ACED887F5035E /* SKSpriteNode+INExtension.m */,
+				8435B477DB6663362116E6EAB26B3FB3 /* Support Files */,
+			);
+			path = INSpriteKit;
+			sourceTree = "<group>";
+		};
+		206624A7EA3CC956535CB550A61E3245 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				DC72F7F6E753B4DE3AA9E76C079448F6 /* Colours.h */,
+				864990E3BEE939E1503B4BE09CFB3EA3 /* Colours.m */,
+				F86997CC5CE93304EB7FEB7C83EC2845 /* Support Files */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		3377A0F52086917473F5AC03B311CEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738BFF96A07836073B3A3014C149B6AB /* libFlurry_7.3.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C690D995C7A1F4DFCE85D900B80137F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20500C9EC1D7F9ECE805395C926BBFB2 /* iRate.xcconfig */,
+				353A0632EF2EFD9234118E73A6613E4C /* iRate-Private.xcconfig */,
+				123388C79BC7BAF9BECE8F890E2F56CB /* iRate-dummy.m */,
+				90F5DDEEF48B3FAB17A728905833CF61 /* iRate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iRate";
+			sourceTree = "<group>";
+		};
+		42F0606A82C532D3CE4C188875473ECD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				502C32389B98FC38A28701D1625F2D74 /* __vungle.db */,
+				34F4A3D6C45EEBDDFA329ADA2F4822AD /* vg_close.png */,
+				4F7DA00B16D1847F5AEFFD8481F78F14 /* vg_cta.png */,
+				DDDF56EEE99F6679B656F9EC835D2426 /* vg_mute_off.png */,
+				7074F7A4D1FEFB26A73972E3FA49A057 /* vg_mute_on.png */,
+				1C028131CD2FE119064C60D56EC4E959 /* vg_privacy.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6886BC84F9743ABF70055529E2FC8C98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2627AB77D79A3CA7F390394CDD20F /* Reachability.xcconfig */,
+				28F3C595F99631A6300CB308730E822C /* Reachability-Private.xcconfig */,
+				2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */,
+				736DE451D99F44A7D0A04A943B5529E1 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		76D48D474B4F068C517670B514F181BE /* ChartboostSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7FBE41B0AA2FFC712EEACFF198E73 /* CBAnalytics.h */,
+				450F2FC03B1C45011BABDB94F358CAFD /* CBInPlay.h */,
+				97234945C0B49F6C616EAD6C427C2D95 /* CBMoreAppsBadge.h */,
+				06F6B93D6A6E58E4B29BED857A07CD78 /* CBMoreAppsButton.h */,
+				E0592BE3DF88E9D8F6300CE8B82E868F /* CBNewsfeed.h */,
+				9D3C981F6C0C8C64C3C189078A698612 /* CBNewsfeedUI.h */,
+				ED36C45D1DC878AC0BAD6219D81B59A5 /* CBStory.h */,
+				A11C45182B1FF6E0751C340E912BDD97 /* Chartboost.h */,
+				0508BAF63735570D6360CD15506687E4 /* Frameworks */,
+			);
+			path = ChartboostSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				E018C1AD2D6B35293EDD574A2586BCAD /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D7D6327CF15E2EF72620A25283DC75C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81D206B639014D712D63F9D6C0E101A9 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC7FF31F940E61E1FBDAB2B8633419 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		8435B477DB6663362116E6EAB26B3FB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27317B1B9202994DFC6E58F21CFE0644 /* INSpriteKit.xcconfig */,
+				102B76D447F42440722B4D8E73BAD76B /* INSpriteKit-Private.xcconfig */,
+				A1B0EB1892CF8D30C00F2607800B6BFD /* INSpriteKit-dummy.m */,
+				83A32A8914E3C684B2275291AC200F94 /* INSpriteKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INSpriteKit";
+			sourceTree = "<group>";
+		};
+		8B200A2E7047F82DBAF31F491A4CDAD8 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				9ED15A7C470EFC74BD2303427FF6FA5D /* iRate.h */,
+				60E1B944C66FDFFEB3638D88A16850CD /* iRate.m */,
+				16755CF62EEA0907788931C34D3D0994 /* Resources */,
+				3C690D995C7A1F4DFCE85D900B80137F /* Support Files */,
+			);
+			path = iRate;
+			sourceTree = "<group>";
+		};
+		8DB72F8DC7527544C9E4FCF018F86DD9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1156CE8684EEFFA845C66A9013B8C827 /* Foundation.framework */,
+				E20DEB5CF9769CD581CF42D9131DB438 /* GLKit.framework */,
+				447ADEF8206894ECF0EBAF59B541F02E /* Security.framework */,
+				A1F9211D1D54228B5687DF427AB84648 /* SpriteKit.framework */,
+				F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */,
+				AF592971B20088FA588D694A8F42E2AA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9241F6C5A36493BAAC5C048F92AA5AB5 /* VungleSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6AFB15657114C5515D28A9FB3681D /* Frameworks */,
+				42F0606A82C532D3CE4C188875473ECD /* Resources */,
+			);
+			path = "VungleSDK-iOS";
+			sourceTree = "<group>";
+		};
+		962BB9312DBF152B611697168F97B144 /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2B5E244E0C9AC177ACBB9118B94A1 /* FlurrySDK */,
+				E6E71D9527699E6AAB0F84268639FA7B /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		9EA6AFB15657114C5515D28A9FB3681D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C64A14D2ABDD034EFF205B49F92E685 /* VungleSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD2B5E244E0C9AC177ACBB9118B94A1 /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				B91A638A5E8D2DFE695CA10E0B1CD498 /* Empty.m */,
+				26E23E2A9FBECF1E320A85D3FCBAAE59 /* Flurry.h */,
+				3377A0F52086917473F5AC03B311CEFD /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		B9035491D7FB05F50794131550249600 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */,
+				771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */,
+				6886BC84F9743ABF70055529E2FC8C98 /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BE8B96B003FAE3611BC8D77B704CF7 /* Flurry-iOS-SDK.bundle */,
+				F8E4CE5DC694CB5680E9885B29049FB4 /* libColours.a */,
+				4390ED0EB249ABAD22DF28AB4B941ADE /* libFlurry-iOS-SDK.a */,
+				7C76A82E091965D9688D069096B0F1BD /* libINSpriteKit.a */,
+				25CFA7544C4F0C6FA1D400729FE679D9 /* libPods-lock.a */,
+				6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */,
+				AEC545FE4F97CC405C042D7A47FCA9D7 /* libiRate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D6327CF15E2EF72620A25283DC75C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3A18DF792E2611CE8199E06DDE5BEEB /* Pods-lock */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E018C1AD2D6B35293EDD574A2586BCAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D48D474B4F068C517670B514F181BE /* ChartboostSDK */,
+				206624A7EA3CC956535CB550A61E3245 /* Colours */,
+				962BB9312DBF152B611697168F97B144 /* Flurry-iOS-SDK */,
+				81D206B639014D712D63F9D6C0E101A9 /* Google-Mobile-Ads-SDK */,
+				1F53BF57A19D762E9B1B3C0B61D51C35 /* INSpriteKit */,
+				B9035491D7FB05F50794131550249600 /* Reachability */,
+				9241F6C5A36493BAAC5C048F92AA5AB5 /* VungleSDK-iOS */,
+				8B200A2E7047F82DBAF31F491A4CDAD8 /* iRate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3A18DF792E2611CE8199E06DDE5BEEB /* Pods-lock */ = {
+			isa = PBXGroup;
+			children = (
+				951C40BBDCB58CFE18B5B28E0EA24519 /* Pods-lock-acknowledgements.markdown */,
+				B0713338D6728DF8323A0B9A5EDEFA00 /* Pods-lock-acknowledgements.plist */,
+				FF29102E8844E6B166FD9B08780A978D /* Pods-lock-dummy.m */,
+				7BE0AE4C5E9B6E59D2A661F5FE3318C1 /* Pods-lock-resources.sh */,
+				F90DFB55BC1E2168479E7B9EDDFE1519 /* Pods-lock.debug.xcconfig */,
+				332529C5DD7BBEE0260EA0A2CB03C3D5 /* Pods-lock.release.xcconfig */,
+			);
+			name = "Pods-lock";
+			path = "Target Support Files/Pods-lock";
+			sourceTree = "<group>";
+		};
+		E6E71D9527699E6AAB0F84268639FA7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66ECD877DCB2A5F2EAC84BC84D5D6D26 /* Flurry-iOS-SDK.xcconfig */,
+				7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */,
+				E8AADC894FEDB129044E5C3B864658B2 /* Flurry-iOS-SDK-dummy.m */,
+				2E7DE4ED79D9CABA3FCE5675643E8931 /* Flurry-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		F86997CC5CE93304EB7FEB7C83EC2845 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50216244F0D274CB8F3EC81721AB9644 /* Colours.xcconfig */,
+				B765FE418E3E354D7A1475885502DC56 /* Colours-Private.xcconfig */,
+				828EE6B7EEE07027B1F63670CA66E882 /* Colours-dummy.m */,
+				E62D10D72BF08C69319AE85F02ACD5D3 /* Colours-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Colours";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DF87471D615D54661C709BD54A84BC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174555E2FA4F68E5BC704905A515275 /* INSKButtonNode.h in Headers */,
+				240088D5039FACA94FC04E89673DB60E /* INSKMath.h in Headers */,
+				2F4700E20D6A199E6E3F811A5B8BAB14 /* INSKOSBridge.h in Headers */,
+				FF2A3BA785505F83403865FA1E47EB11 /* INSKScrollNode.h in Headers */,
+				B798ADFDA91B2526DD0D7A80CB146154 /* INSKTiledImageNode.h in Headers */,
+				B6C8F6B61024C693F0B704E61974DEE3 /* INSKTypes.h in Headers */,
+				F293EADEE38B06768D64CA6F68986DA9 /* INSKView.h in Headers */,
+				433741F71AB737DD3C0095666F195601 /* INSpriteKit.h in Headers */,
+				74D6E74A31C83A0F36CDDA5F0E73B5EA /* SKEmitterNode+INExtension.h in Headers */,
+				E430B68B942D2551F56733C3D64B4613 /* SKNode+INExtension.h in Headers */,
+				819B4299F6892CF19950F446C5EB2F38 /* SKSpriteNode+INExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDDF3F13C4AD4220B2D9C6F6DCDCC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF476FF5BDC691956784E5CCAD27AA /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F5BFC7D90FC9285A442F4036042A9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E5F289C679748ABC8D913EAC8D78C0 /* Flurry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AFFEC7E1D399137649154652B4B014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA2A177E2E75077CD528D27DA99D27C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5ADD14C352A2D7162E2319E5AF7845A /* iRate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1893DE70459B9C5430E1E53597BF9817 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */,
+				91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */,
+				E8AFFEC7E1D399137649154652B4B014 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		361B8747ADF199AFBFC9CE4DEF211532 /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC56A22C23AE0B5E0BCBA186DC586FE /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				1F31AA6A03FBAB619F0E88909A15B6A3 /* Sources */,
+				9414FEC2B103BBD0E1B6E5211C897D0A /* Frameworks */,
+				A7CDDF3F13C4AD4220B2D9C6F6DCDCC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = F8E4CE5DC694CB5680E9885B29049FB4 /* libColours.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B090755233C44E8E118A8DA48015C08 /* iRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF41AD739A2B1AB6D00F631720006F71 /* Build configuration list for PBXNativeTarget "iRate" */;
+			buildPhases = (
+				D5C0966365BD45D79EA4242E155D50D2 /* Sources */,
+				FF4DE357068514685330702108D93A21 /* Frameworks */,
+				FCA2A177E2E75077CD528D27DA99D27C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRate;
+			productName = iRate;
+			productReference = AEC545FE4F97CC405C042D7A47FCA9D7 /* libiRate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95A0625BF1E53A26C546EE837FF17236 /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEC33F85471EE9C734143AB37C8AB2C /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				281D746D3A4CEACC9ED2D1241525827F /* Sources */,
+				1E86D7CB7713C9D1DE14C34E07F35A0E /* Frameworks */,
+				B5F5BFC7D90FC9285A442F4036042A9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAA50D973D651AF7AD37A539C5DBACC /* PBXTargetDependency */,
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = 4390ED0EB249ABAD22DF28AB4B941ADE /* libFlurry-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6475B6FE7D7DC038B2E029541BC980F /* Pods-lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605AB4BB3AA0299B26558A09EA6CCB4A /* Build configuration list for PBXNativeTarget "Pods-lock" */;
+			buildPhases = (
+				0D235C4D230AA48EA6772F08E796F115 /* Sources */,
+				7667DCF5B2E5F382F5B490727644BF54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B457073178E16DDBB81893C6886500 /* PBXTargetDependency */,
+				5CA70C20243BA4DB9C667117B172DE37 /* PBXTargetDependency */,
+				0BB3157CEF42C169019489D17091A106 /* PBXTargetDependency */,
+				CA24F907526EB3564285CB02B5DA6AF8 /* PBXTargetDependency */,
+				8575AA37111251AAC60A2039767372B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-lock";
+			productName = "Pods-lock";
+			productReference = 25CFA7544C4F0C6FA1D400729FE679D9 /* libPods-lock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7B1FFFC147076F1931310733BF894B3 /* Flurry-iOS-SDK-Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E036E56A0F5BB48F34CB21D3BC03832 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-Flurry-iOS-SDK" */;
+			buildPhases = (
+				523244588AEDEB1DBDE13A6182354194 /* Sources */,
+				D056929D1351B962734C95CFB7E0CB70 /* Frameworks */,
+				204FD5C38A71046AD95AF0C598E9CC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK-Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK-Flurry-iOS-SDK";
+			productReference = 51BE8B96B003FAE3611BC8D77B704CF7 /* Flurry-iOS-SDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CFF4B12C4B0BC2B15947FA999F23F55C /* INSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EFA800B0D47EA6F964CE6D069A4796 /* Build configuration list for PBXNativeTarget "INSpriteKit" */;
+			buildPhases = (
+				57E5C986C5CD4CF8F7E561496CA46F93 /* Sources */,
+				937B5B2DA6300986DEADD611BAE2CCF4 /* Frameworks */,
+				4DF87471D615D54661C709BD54A84BC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INSpriteKit;
+			productName = INSpriteKit;
+			productReference = 7C76A82E091965D9688D069096B0F1BD /* libINSpriteKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361B8747ADF199AFBFC9CE4DEF211532 /* Colours */,
+				95A0625BF1E53A26C546EE837FF17236 /* Flurry-iOS-SDK */,
+				C7B1FFFC147076F1931310733BF894B3 /* Flurry-iOS-SDK-Flurry-iOS-SDK */,
+				CFF4B12C4B0BC2B15947FA999F23F55C /* INSpriteKit */,
+				A6475B6FE7D7DC038B2E029541BC980F /* Pods-lock */,
+				1893DE70459B9C5430E1E53597BF9817 /* Reachability */,
+				8B090755233C44E8E118A8DA48015C08 /* iRate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204FD5C38A71046AD95AF0C598E9CC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D235C4D230AA48EA6772F08E796F115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6C1234D4FA8CA0A84944BBAEFD4FE2 /* Pods-lock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */,
+				5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F31AA6A03FBAB619F0E88909A15B6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E0954C47F9E625AD9AD6A32977B939 /* Colours-dummy.m in Sources */,
+				933264F8781F81E6669AED92F6AF76D6 /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281D746D3A4CEACC9ED2D1241525827F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E67B542C530FA0014D69F6883832E0 /* Empty.m in Sources */,
+				D779089012B9C3AA1899EA655B742EE7 /* Flurry-iOS-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523244588AEDEB1DBDE13A6182354194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E5C986C5CD4CF8F7E561496CA46F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F256461441540EA696FE86B1B86C09 /* INSKButtonNode.m in Sources */,
+				4D57E230695F6C2669506F336971D252 /* INSKOSBridge.m in Sources */,
+				C0EAA96F38FABF1C9F585148D6D98FE7 /* INSKScrollNode.m in Sources */,
+				DE20B2F87A4739E6883E6A09E1466784 /* INSKTiledImageNode.m in Sources */,
+				159714F1DDE1D51C6E5C228735B52CED /* INSKView.m in Sources */,
+				95D8218CD113E9E54E69C0F9168F3204 /* INSpriteKit-dummy.m in Sources */,
+				CE8690D840FE22650E0690CDBA925E7A /* SKEmitterNode+INExtension.m in Sources */,
+				DDB415A30D001EAC1FADDAD40596DBB7 /* SKNode+INExtension.m in Sources */,
+				94BE3998642489C8DFAE65ED9AE876AC /* SKSpriteNode+INExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C0966365BD45D79EA4242E155D50D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53A2315F1F3902CB3DB0881F88D212D /* iRate-dummy.m in Sources */,
+				1513E1E4433F4B945B8C7FDF46CF4FEC /* iRate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB3157CEF42C169019489D17091A106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INSpriteKit;
+			target = CFF4B12C4B0BC2B15947FA999F23F55C /* INSpriteKit */;
+			targetProxy = 719FD6C0E78E1B19E00291CB7BEA5FC3 /* PBXContainerItemProxy */;
+		};
+		16B457073178E16DDBB81893C6886500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = 361B8747ADF199AFBFC9CE4DEF211532 /* Colours */;
+			targetProxy = 2E922D30044FFBB30C33524D11682A5B /* PBXContainerItemProxy */;
+		};
+		5CA70C20243BA4DB9C667117B172DE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = 95A0625BF1E53A26C546EE837FF17236 /* Flurry-iOS-SDK */;
+			targetProxy = D3269FD7651C20F8606F91BECD152A4C /* PBXContainerItemProxy */;
+		};
+		8575AA37111251AAC60A2039767372B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iRate;
+			target = 8B090755233C44E8E118A8DA48015C08 /* iRate */;
+			targetProxy = 61E612DBC978684984BA3EA91BA13CD6 /* PBXContainerItemProxy */;
+		};
+		CA24F907526EB3564285CB02B5DA6AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 1893DE70459B9C5430E1E53597BF9817 /* Reachability */;
+			targetProxy = 01A0A2B35FAAB4ABAD78D84F524A3A0F /* PBXContainerItemProxy */;
+		};
+		CFAA50D973D651AF7AD37A539C5DBACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK-Flurry-iOS-SDK";
+			target = C7B1FFFC147076F1931310733BF894B3 /* Flurry-iOS-SDK-Flurry-iOS-SDK */;
+			targetProxy = A87E697BD25032A161DD146C8EFF6AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0208D10D9059F28A68CB5FD35253FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08C806C3A03DD7888D595409B3EA3833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B765FE418E3E354D7A1475885502DC56 /* Colours-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C7ADCC0847563E51AF74291BD4C3FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F3C595F99631A6300CB308730E822C /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3117A28693B85F203E8EB4848D7018A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332529C5DD7BBEE0260EA0A2CB03C3D5 /* Pods-lock.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38291BD66E1CA492D97FCE6024BA4B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90DFB55BC1E2168479E7B9EDDFE1519 /* Pods-lock.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		54782F2572629AF6760BCD84401DE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B765FE418E3E354D7A1475885502DC56 /* Colours-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		589201547E905161D9E28B47F582960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353A0632EF2EFD9234118E73A6613E4C /* iRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iRate/iRate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75087FCD9BA25E019270C222DD86EB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102B76D447F42440722B4D8E73BAD76B /* INSpriteKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8E2F35B90D049F0BECA45052DF89194A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A98F591694E424028F92EBBB056FC708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F3C595F99631A6300CB308730E822C /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BACB221D686C3D93E24F5B024F423033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102B76D447F42440722B4D8E73BAD76B /* INSpriteKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE93CAA9F9E6043204533A9987DA8780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "Flurry-iOS-SDK";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C7C4D8452063DA9CA80E68614BE686D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353A0632EF2EFD9234118E73A6613E4C /* iRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iRate/iRate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D556F36B69954B9567E23550D5ABD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0281FE8FF19476254BB806D6D3A8CE /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "Flurry-iOS-SDK";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EFA800B0D47EA6F964CE6D069A4796 /* Build configuration list for PBXNativeTarget "INSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACB221D686C3D93E24F5B024F423033 /* Debug */,
+				75087FCD9BA25E019270C222DD86EB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC56A22C23AE0B5E0BCBA186DC586FE /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54782F2572629AF6760BCD84401DE51A /* Debug */,
+				08C806C3A03DD7888D595409B3EA3833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605AB4BB3AA0299B26558A09EA6CCB4A /* Build configuration list for PBXNativeTarget "Pods-lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38291BD66E1CA492D97FCE6024BA4B2D /* Debug */,
+				3117A28693B85F203E8EB4848D7018A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E036E56A0F5BB48F34CB21D3BC03832 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556F36B69954B9567E23550D5ABD29B /* Debug */,
+				BE93CAA9F9E6043204533A9987DA8780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7ADCC0847563E51AF74291BD4C3FF1 /* Debug */,
+				A98F591694E424028F92EBBB056FC708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEC33F85471EE9C734143AB37C8AB2C /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2F35B90D049F0BECA45052DF89194A /* Debug */,
+				0208D10D9059F28A68CB5FD35253FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF41AD739A2B1AB6D00F631720006F71 /* Build configuration list for PBXNativeTarget "iRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589201547E905161D9E28B47F582960B /* Debug */,
+				C7C4D8452063DA9CA80E68614BE686D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

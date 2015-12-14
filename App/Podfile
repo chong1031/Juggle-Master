@@ -1,0 +1,25 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'lock' do
+
+pod 'Flurry-iOS-SDK', '~> 7.3'
+pod 'ChartboostSDK', '~> 5.3'
+pod 'Google-Mobile-Ads-SDK', '~> 7.0'
+
+pod 'iRate', '~> 1.11'
+pod 'Reachability', '~> 3.2'
+pod 'Colours', '~> 5.6'
+
+pod 'INSpriteKit'
+
+end
+
+target 'lockTests' do
+
+end
+
+target 'lockUITests' do
+
+end
+

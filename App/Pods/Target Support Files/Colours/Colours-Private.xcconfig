@@ -1,0 +1,5 @@
+#include "Colours.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Colours" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChartboostSDK" "${PODS_ROOT}/Headers/Public/ChartboostSDK/Chartboost" "${PODS_ROOT}/Headers/Public/Colours" "${PODS_ROOT}/Headers/Public/Flurry-iOS-SDK" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds" "${PODS_ROOT}/Headers/Public/INSpriteKit" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/VungleSDK-iOS" "${PODS_ROOT}/Headers/Public/VungleSDK-iOS/VungleSDK" "${PODS_ROOT}/Headers/Public/iRate"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

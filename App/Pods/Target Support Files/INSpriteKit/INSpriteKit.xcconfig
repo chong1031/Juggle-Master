@@ -1,0 +1,1 @@
+INSPRITEKIT_OTHER_LDFLAGS = -framework "GLKit" -framework "SpriteKit"
